@@ -1,0 +1,38 @@
+.small-card {
+  max-width: 28rem;
+  height: 35rem;
+  background: linear-gradient(#f8f8f827, #ffffffcc);
+  // background: linear-gradient(#f8f8f8, #fff);
+  box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+  position: relative;
+  margin: 1.5rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  display: inline-block;
+
+  display: none;
+
+  transition: all .4s ease-out;
+
+  h3 {
+    color: white;
+  }
+
+  .skills-group {
+    p {
+      width: fit-content;
+      padding: 0.5rem 1.3rem;
+      background-color: $gray;
+      display: inline-block;
+      margin: 0.5rem 0.2rem;
+      border-radius: 5rem;
+    }
+  }
+}
+
+.small-card:hover{
+    transform: translateY(-1.5rem);
+    // transform: scale(1.1);
+    box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.6);
+}

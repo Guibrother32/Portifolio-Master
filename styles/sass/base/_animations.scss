@@ -1,0 +1,62 @@
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(-2000px);
+  }
+}
+
+@keyframes moveInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes cardSpreadRight {
+  from {
+    transform: translateY(-2rem) translateX(32rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0rem) translateX(0rem);
+    opacity: 1;
+  }
+}
+@keyframes cardSpreadBottom {
+  from {
+    transform: translateY(-2rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+}
+@keyframes cardSpreadLeft {
+  from {
+    transform: translateY(-2rem) translateX(-32rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0rem) translateX(0);
+    opacity: 1;
+  }
+}

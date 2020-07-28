@@ -1,0 +1,60 @@
+.heading-primary {
+  letter-spacing: 3px;
+  top: 8rem;
+  position: absolute;
+  margin: 0;
+  font-size: 4.3rem;
+  white-space: normal;
+  color: white;
+  line-height: 95%;
+}
+
+.heading-secondary {
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  margin: 0 auto;
+  display: table;
+  position: relative;
+  padding: 0.5rem 1.8rem;
+  border-radius: 4px;
+  margin-bottom: 5rem;
+}
+
+.heading-terciary {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  margin-bottom: 3rem;
+}
+
+.paragraph {
+  font-size: 2rem;
+}
+
+.small-paragraph {
+  font-size: 1.5rem;
+}
+
+.x-small-paragraph {
+  font-size: 1.3rem;
+}
+
+.xx-small-paragraph {
+  font-size: 1.2rem;
+}
+
+.span-medium {
+  font-size: 2.3rem;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-gray {
+  color: $gray2;
+}
+
+.date-type {
+  font-size: 1.5rem;
+}

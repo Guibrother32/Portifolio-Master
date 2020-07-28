@@ -1,0 +1,173 @@
+.card {
+  max-width: 60rem;
+  height: 32rem;
+  background-color: white;
+  background: linear-gradient(#f8f8f8, #fff);
+  box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+  //   overflow: hidden;
+  position: relative;
+  margin: 1.5rem auto;
+
+  &-additional {
+    color: #fff;
+    position: absolute;
+    width: 18rem; //width should be 33%
+    height: 100%;
+    background: linear-gradient(#e95a5a, $primary-red);
+    overflow: hidden;
+    z-index: 2;
+    border-radius: 6px 0 0 6px;
+
+    transition: width 0.4s;
+
+    &__personal {
+      position: relative;
+      float: left;
+      width: 18rem;
+      height: 100%;
+
+      &--picture {
+        height: 18rem;
+        margin-top: 5rem;
+
+        img {
+          height: 100%;
+          border-radius: 50%;
+        }
+      }
+      &--additional {
+        width: fit-content;
+        padding: 2px 6px;
+        font-size: 1.2rem;
+        margin: auto;
+        margin-top: 3rem;
+        background-color: $transparent-gray;
+        border-radius: 20px;
+      }
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 10%;
+        left: 18rem;
+        height: 80%;
+        border-left: 2px solid rgba(0, 0, 0, 0.082);
+      }
+    }
+
+    &__general {
+      width: 42rem;
+      height: 100%;
+      float: left;
+      position: absolute; //prob
+      left: 18rem; //prob**
+      h3 {
+        font-weight: 700;
+        margin-top: 3rem;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .profile-information {
+        height: 10rem;
+        span {
+          position: absolute;
+        }
+        #role {
+          left: 5rem;
+        }
+        #city {
+          left: 25rem;
+        }
+        #age {
+          left: 5rem;
+          top: 12rem;
+        }
+        #country {
+          left: 25rem;
+          top: 12rem;
+        }
+      }
+      .profile-achievements {
+        position: absolute;
+        padding-left: 5rem;
+        width: 100%;
+        text-align: center;
+        ul {
+          list-style: none;
+          text-align: left;
+          li {
+            display: inline-block;
+            margin-right: 4rem;
+            height: 11rem;
+            .achievements-li__title {
+              text-transform: uppercase;
+              font-weight: 700;
+            }
+            img {
+              margin: 0 auto;
+              display: block;
+              height: 4.5rem;
+              filter: invert(1);
+            }
+
+            .achievements-li__value {
+              font-size: 3rem;
+              font-family: sans-serif;
+              text-align: center;
+              margin: 0 auto;
+              height: 4rem;
+              width: 4rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  &:hover &-additional {
+    //?
+    width: 100%;
+    border-radius: 6px;
+  }
+  .card-general {
+    width: 42rem;
+    height: 32rem;
+
+    position: absolute;
+    left: 18rem;
+    h3 {
+      width: 100%;
+      margin-top: 3rem;
+      font-weight: 700;
+    }
+    p {
+      width: 25rem;
+      margin: auto;
+    }
+    .card-general__more {
+      position: absolute;
+      right: 1rem;
+      bottom: 1rem;
+      color: $gray2;
+      font-size: 1.3rem;
+    }
+  }
+}
+
+#cafe {
+  // transform: rotate(270deg);
+  line-height: 4rem;
+  font-size: 4rem;
+  width: fit-content;
+}
+
+.card-click {
+  height: 100% !important;
+  border-radius: 6px;
+}
+
+.card-click-close {
+  height: 30rem !important;
+  border-radius: 6px;
+}

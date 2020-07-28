@@ -1,0 +1,99 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+/*THE BEST PRACTICE HERE IS TO IMPORT ONLY THE THINGS YOU NEED FOR YOUR PROJECT, NOT EVERYTHING AS WE RE DOING ABOVE*/
+
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/banner";
+@import "components/button";
+@import "components/card";
+@import "components/composition";
+@import "components/contactCard";
+@import "components/smallCard";
+
+@import "layout/header";
+@import "layout/grid";
+
+@import "pages/home";
+
+@import "base/mediaQuery";
+
+// /**********************MediaQueries**************************/
+
+// @media screen and (min-width: 600px) {
+//   .main__welcome {
+//     top: 100%;
+//     transform: translate(0, -100%); /*STANDARD CENTERING TRICK*/
+//   }
+
+//   .profile__pic--div {
+//     display: inline-block;
+//     position: relative;
+//   }
+//   .main__content--about .profile-content .profile-picture {
+//     margin-bottom: 0;
+//     height: 250px;
+//     // box-shadow: -7px 7px map-get($map: $colors, $key: medium-blue);
+//   }
+
+//   .main__content--about .about-p {
+//     position: relative;
+//     top: 60px;
+//     width: 251px;
+//     display: inline-block;
+//     text-align: start;
+//     margin-bottom: 0;
+//   }
+
+//   .main__content--skills {
+//     max-width: 1050px;
+//     margin: auto;
+//   }
+
+//   #front-end {
+//     max-width: 909px;
+//     display: inline-block;
+//   }
+//   #back-end {
+//     max-width: 450px;
+//     display: inline-block;
+//     height: 410px;
+//   }
+//   #skill-extras {
+//     max-width: 450px;
+//     display: inline-block;
+//     height: 410px;
+//     margin-bottom: 0;
+//     margin-left: 5px;
+//     position: relative;
+//     top: -6.5px;
+//   }
+//   .section__container--history {
+//     max-width: 900px;
+//     margin: auto;
+//   }
+//   .main__content--studies {
+//     margin: 0;
+//     width: 447px;
+//     display: inline-block;
+//     position: relative;
+//     top: 0;
+//   }
+//   .main__content--experiences {
+//     width: 447px;
+//     display: inline-block;
+//     position: relative;
+//     bottom: 245px;
+//   }
+// }
+
+/***********************************************************/
+/************************Keyframes**************************/

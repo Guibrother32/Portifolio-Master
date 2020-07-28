@@ -1,0 +1,76 @@
+
+
+.banner {
+  position: relative;
+  height: 55rem;
+  margin: 1rem 1rem;
+  width: 55rem;
+  border: 1px solid #e1e1e1;
+  display: inline-block;
+
+  a {
+    font-style: none;
+    text-decoration: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  &:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.8;
+  }
+  &:hover .banner-info {
+    //hovering effect only for .banner-info child
+    opacity: 1;
+  }
+}
+
+.banner-info {
+  position: relative; //color appearence
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 2rem 5rem;
+  text-align: start;
+  opacity: 0;
+
+  p {
+    max-height: 20rem;
+    margin-bottom: 5rem;
+  }
+  ul {
+    margin-top: 2rem;
+    li {
+      list-style-position: inside;
+    }
+  }
+}
+
+#undersign {
+  background: url(../../../images/covid.png);
+  background-size: cover;
+}
+
+#socialreporter {
+  background-image: url(../../../images/socialreporter.jpg);
+  background-size: cover;
+}
+
+#burgerbuilder {
+  background-image: url(../../../images/burgerbuilder.png);
+  background-size: cover;
+}
+
+#sistema {
+  background-image: url(../../../images/sistema.png);
+  background-size: cover;
+}

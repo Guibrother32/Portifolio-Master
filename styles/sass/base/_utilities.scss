@@ -1,0 +1,39 @@
+.u-side-margin {
+  max-width: 150rem;
+  padding: 7rem 0px;
+  margin: 0 auto;
+  margin-bottom: 8rem;
+}
+
+.u-side-margin__paragraph {
+  max-width: 30rem;
+  padding: 0px;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.section__container {
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  &--title {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+  }
+}
+
+.u-center__listing {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.u-visible{
+  display: block !important;
+}
+
+.u-margin-bottom{
+  margin-bottom: 3rem;
+}

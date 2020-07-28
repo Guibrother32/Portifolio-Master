@@ -1,0 +1,33 @@
+.contact__card {
+    margin: 0 auto;
+    width: 32rem;
+    height: 15rem;
+    padding: 10px 15px;
+    text-align: center;
+    h4 {
+      font-size: 15px;
+    }
+    p {
+      min-width: 215px;
+      display: inline-block;
+      border-radius: 30px;
+      padding: 5px 15px;
+      border: none;
+      background: rgba(0, 0, 0, 0.09);
+    }
+    button {
+      min-width: 57px;
+      display: inline-block;
+      border-radius: 30px;
+      padding: 5px 15px;
+      border: none;
+      background: rgba(0, 0, 0, 0.09);
+    }
+    button:focus {
+      outline: 0;
+    }
+    button:hover,
+    button:active {
+      color: rgb(0, 255, 0);
+    }
+  }

@@ -1,0 +1,129 @@
+@media screen and (max-width: 700px) {
+  // html {
+  //   width: 100vw;
+  //   height: fit-content;
+  // }
+  body {
+    height: fit-content;
+  }
+
+  .select-wrap{
+    top: 5.5rem;
+    right: 2.5vw;
+  }
+  .main__welcome {
+    top: 88%;
+  }
+  .card {
+    max-width: 90vw;
+    height: 60rem;
+
+    &-additional {
+      border-radius: 6px 6px 0 0;
+      width: 100%;
+      height: 30rem;
+      position: relative;
+      transition: all 0.4s ease-out;
+      &__personal {
+        float: none;
+        width: 100%;
+        height: fit-content;
+        &::after {
+          display: none;
+        }
+      }
+      &__general {
+        float: none;
+        position: relative;
+        width: 100%;
+        height: 28rem;
+        left: 0;
+        .profile-information {
+          #role {
+            left: 2rem;
+          }
+          #city {
+            left: 18rem;
+          }
+          #age {
+            left: 2rem;
+            top: 10rem;
+          }
+          #country {
+            left: 17.5rem;
+            top: 10rem;
+          }
+        }
+        .profile-achievements {
+          padding-left: 0;
+          ul {
+            width: fit-content;
+            margin: auto;
+            li {
+              margin: 0 1rem;
+            }
+          }
+        }
+      }
+    }
+
+    &-general {
+      height: 28rem !important;
+      width: 100% !important;
+      //   width: 100% !important;
+      left: 0rem !important;
+      top: 32rem;
+    }
+    &:hover &-additional {
+      height: 100%;
+      border-radius: 6px;
+    }
+  }
+  .banner {
+    width: 90%;
+    height: 40rem;
+    .banner-info {
+      padding: 0;
+      h2 {
+        width: 100%;
+        background-color: black;
+        border-radius: 4px;
+      }
+      opacity: 1;
+      p,
+      span,
+      ul {
+        opacity: 0;
+      }
+    }
+  }
+
+  .cards__skills {
+    flex-direction: column;
+  }
+
+  .main__content--history {
+    flex-direction: column;
+
+    .main__content--studies,
+    .main__content--experience {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  #history {
+    height: 180vh;
+  }
+}
+
+#contact {
+  height: 40rem;
+  overflow: hidden;
+}
+
+#top-scroller img {
+  width: 40%;
+}
+
+
